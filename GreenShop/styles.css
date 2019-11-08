@@ -1,0 +1,104 @@
+/*==Reset CSS==*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*==Style cơ bản cho website==*/
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+
+/*top header*/
+.topheader .row{
+    
+    color: #898989;
+    display: inline; 
+}
+.topheader .row  .imgg{
+    margin-top: 5px; 
+    margin-right: 5px;
+}
+
+.accoutlink{
+    float: right;
+}
+
+.midheader .left{
+    float: left;
+}
+
+.midheader .center{
+    padding-top: 42px;
+    float:center;
+}   
+
+.midheader .right{
+    float: right;
+    text-align: center;
+}
+
+/*top header*/
+
+
+/*mid header*/
+
+
+/*mid header*/
+#menu{
+    margin-top: 65px;
+}
+#menu ul {
+  background: #3fb871;
+  list-style-type: none;
+  text-align: center;
+}
+
+#menu ul li {
+  color: #ffffff;
+  display: inline-block;
+  width: 116px;
+  height: 48px;
+  margin: 20px 0px 0px 0px;
+}
+#menu a {
+  text-decoration: none;
+  padding: 0px 0px 0px 0px;
+  
+  height: 28px;
+  color: #ffffff;
+  display: block;
+}
+
+#menu a:hover {
+  background-color: #36a66d;
+}
+
+/**/
+
+
+
+/**/
+
+#menu li {
+  position: relative;
+}
+#menu li:hover .sub-menu {
+padding-top: 3px;
+  display: block;
+}
+.sub-menu li {
+  margin-left: 0 !important;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+}
+.sub-menu li {
+  display: none;
+}
+#menu li {
+  position: relative;
+}
